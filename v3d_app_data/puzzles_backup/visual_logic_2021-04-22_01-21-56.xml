@@ -1,0 +1,50 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <tab name="init" type="InitTab" active="false" scrollx="875" scrolly="446.5" scale="0.9"></tab>
+  <tab name="main" type="MainTab" active="true" scrollx="875" scrolly="446.5" scale="0.9">
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenHovered" id="r2WjFS~Y$/bC`=1Quy#d" x="-890" y="-370">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false"></mutation>
+      <field name="X_RAY">FALSE</field>
+      <value name="VALUE">
+        <shadow type="objectList" id="JoBCZDSNC{_=GIHfA*BQ">
+          <field name="FIELDNAME">side-L</field>
+        </shadow>
+      </value>
+      <statement name="DO_OVER">
+        <block type="hide" id="Y*jmwB]/)M`M5OMyS77O">
+          <value name="VALUE">
+            <shadow type="objectList" id="7mG*`era[z.S|9Y#;_wK">
+              <field name="FIELDNAME">side-L</field>
+            </shadow>
+          </value>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="hoveredObject" id="5t1l+W5sUpzB79hF#-KD" x="-710" y="-230"/>
+    <block xmlns="https://developers.google.com/blockly/xml" type="objectList" id="wUkSx:AOJd6}3(kTa!+5" x="-890" y="-190">
+      <field name="FIELDNAME">side-L</field>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenClicked" id="N_k:Vq:HKJ8~o)Hh$@,B" x="-890" y="-70">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false"></mutation>
+      <field name="X_RAY">FALSE</field>
+      <field name="DOUBLE_CLICK">FALSE</field>
+      <field name="LEFT_BUTTON">TRUE</field>
+      <field name="MIDDLE_BUTTON">TRUE</field>
+      <field name="RIGHT_BUTTON">TRUE</field>
+      <value name="VALUE">
+        <shadow type="objectList" id="Ikiev%8m#h`ILF8POa2v">
+          <field name="FIELDNAME">side-R</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="hide" id="$ru*%c3w5[:g4v9GWzj~">
+          <value name="VALUE">
+            <shadow type="objectList" id="{j]B:eh:A%FT9F%rN=?8">
+              <field name="FIELDNAME">side-R</field>
+            </shadow>
+          </value>
+        </block>
+      </statement>
+    </block>
+  </tab>
+  <editorsettings viewport-x="701.9999389648438" viewport-y="84" viewport-w="768" viewport-h="484.5" viewport-hidden="false" toolbox-library-mode="false" toolbox-minimized-mode="false"></editorsettings>
+</xml>

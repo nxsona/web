@@ -1,0 +1,279 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <tab name="init" type="InitTab" active="false" scrollx="875" scrolly="446.5" scale="0.9"></tab>
+  <tab name="main" type="MainTab" active="true" scrollx="641.4225948485196" scrolly="387.84221863873506" scale="0.6715938569729647">
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenHovered" id="r2WjFS~Y$/bC`=1Quy#d" x="-870" y="-350">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false"></mutation>
+      <field name="X_RAY">FALSE</field>
+      <value name="VALUE">
+        <shadow type="objectList" id="JoBCZDSNC{_=GIHfA*BQ">
+          <field name="FIELDNAME">side-L</field>
+        </shadow>
+      </value>
+      <statement name="DO_OVER">
+        <block type="hide" id="Y*jmwB]/)M`M5OMyS77O">
+          <value name="VALUE">
+            <shadow type="objectList" id="7mG*`era[z.S|9Y#;_wK">
+              <field name="FIELDNAME">side-L</field>
+            </shadow>
+          </value>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="hoveredObject" id="5t1l+W5sUpzB79hF#-KD" x="-710" y="-230"/>
+    <block xmlns="https://developers.google.com/blockly/xml" type="objectList" id="wUkSx:AOJd6}3(kTa!+5" x="-890" y="-190">
+      <field name="FIELDNAME">side-L</field>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenClicked" id="N_k:Vq:HKJ8~o)Hh$@,B" x="-890" y="-70">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false"></mutation>
+      <field name="X_RAY">FALSE</field>
+      <field name="DOUBLE_CLICK">FALSE</field>
+      <field name="LEFT_BUTTON">TRUE</field>
+      <field name="MIDDLE_BUTTON">TRUE</field>
+      <field name="RIGHT_BUTTON">TRUE</field>
+      <value name="VALUE">
+        <shadow type="objectList" id="Ikiev%8m#h`ILF8POa2v">
+          <field name="FIELDNAME">side-R</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="hide" id="$ru*%c3w5[:g4v9GWzj~">
+          <value name="VALUE">
+            <shadow type="objectList" id="{j]B:eh:A%FT9F%rN=?8">
+              <field name="FIELDNAME">side-R</field>
+            </shadow>
+          </value>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenClicked" id="#[o,Df?n6KDuU3Y6c4MJ" x="-910" y="70">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false"></mutation>
+      <field name="X_RAY">FALSE</field>
+      <field name="DOUBLE_CLICK">FALSE</field>
+      <field name="LEFT_BUTTON">TRUE</field>
+      <field name="MIDDLE_BUTTON">TRUE</field>
+      <field name="RIGHT_BUTTON">TRUE</field>
+      <value name="VALUE">
+        <shadow type="objectList" id="=z`=vcgl6kIn7X/a;fl$">
+          <field name="FIELDNAME">Body378</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="setMaterialColor" id=";Mn7di|A![z7$0;QMZVY">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" flexcolinput="false" usecsscolor="false"></mutation>
+          <field name="MAT_COL_NAME">Principled BSDF Color</field>
+          <value name="MATERIAL">
+            <shadow type="materialList" id="U^yZsZo)^CpV,727[7U!">
+              <field name="FIELDNAME">black</field>
+            </shadow>
+          </value>
+          <value name="R">
+            <shadow type="math_number" id="zlr7$gxvri0;S*GUyp#g">
+              <field name="NUM">0.2</field>
+            </shadow>
+            <block type="math_random_int" id="T2x2JfFc=d#z0`?n#IHa">
+              <value name="FROM">
+                <shadow type="math_number" id="!F!Vx1(p4HL6!4-rfgay">
+                  <field name="NUM">0.1</field>
+                </shadow>
+              </value>
+              <value name="TO">
+                <shadow type="math_number" id="cB/B::~PllIsLzPT}23D">
+                  <field name="NUM">0.8</field>
+                </shadow>
+              </value>
+            </block>
+          </value>
+          <value name="G">
+            <shadow type="math_number" id="%NtS9e2pN_V4W@*iftnk">
+              <field name="NUM">0</field>
+            </shadow>
+            <block type="math_random_int" id="iwe0r.9/sb18@lt=o/RV">
+              <value name="FROM">
+                <shadow type="math_number" id="rBj%Y[6O=aI%$GW3+/[M">
+                  <field name="NUM">0.1</field>
+                </shadow>
+              </value>
+              <value name="TO">
+                <shadow type="math_number" id="wh]5ozyFeI4^B%Pof|`J">
+                  <field name="NUM">0.8</field>
+                </shadow>
+              </value>
+            </block>
+          </value>
+          <value name="B">
+            <shadow type="math_number" id="?*b;PS%eV.klqaS%X^@W">
+              <field name="NUM">0.5</field>
+            </shadow>
+            <block type="math_random_int" id="K/6Szd$POJs?$f2%HnRV">
+              <value name="FROM">
+                <shadow type="math_number" id="L9#}I6!?eOCXqMKOmah(">
+                  <field name="NUM">0.1</field>
+                </shadow>
+              </value>
+              <value name="TO">
+                <shadow type="math_number" id="iP+Cw$sir0h;px{ls#bd">
+                  <field name="NUM">0.8</field>
+                </shadow>
+              </value>
+            </block>
+          </value>
+        </block>
+      </statement>
+      <next>
+        <block type="whenClicked" id="=.9.#2,4P5TCpm14^[sv">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false"></mutation>
+          <field name="X_RAY">FALSE</field>
+          <field name="DOUBLE_CLICK">FALSE</field>
+          <field name="LEFT_BUTTON">TRUE</field>
+          <field name="MIDDLE_BUTTON">TRUE</field>
+          <field name="RIGHT_BUTTON">TRUE</field>
+          <value name="VALUE">
+            <shadow type="objectList" id="R?#fO,h^STo0Gv%0GJbE">
+              <field name="FIELDNAME">CC</field>
+            </shadow>
+          </value>
+          <statement name="DO">
+            <block type="setMaterialColor" id="kM8~T_!IGV+?Q4-fBWYW">
+              <mutation xmlns="http://www.w3.org/1999/xhtml" flexcolinput="false" usecsscolor="false"></mutation>
+              <field name="MAT_COL_NAME">Principled BSDF Color</field>
+              <value name="MATERIAL">
+                <shadow type="materialList" id="aEFzq$@3(pWsw@Q0,W^b">
+                  <field name="FIELDNAME">black</field>
+                </shadow>
+              </value>
+              <value name="R">
+                <shadow type="math_number">
+                  <field name="NUM">0.2</field>
+                </shadow>
+                <block type="math_random_int" id="xI6$Or|/LyFA1)_)*l2-">
+                  <value name="FROM">
+                    <shadow type="math_number" id="UR@1PW[~|t}8ZY*Iq0ta">
+                      <field name="NUM">0.1</field>
+                    </shadow>
+                  </value>
+                  <value name="TO">
+                    <shadow type="math_number" id="tgMuj0#gBLp[prA$i?M-">
+                      <field name="NUM">0.8</field>
+                    </shadow>
+                  </value>
+                </block>
+              </value>
+              <value name="G">
+                <shadow type="math_number">
+                  <field name="NUM">0</field>
+                </shadow>
+                <block type="math_random_int" id="{^(j6.b#Y`6RP,zv,+2V">
+                  <value name="FROM">
+                    <shadow type="math_number" id="hL^z]t(}My%gp,q@StbO">
+                      <field name="NUM">0.1</field>
+                    </shadow>
+                  </value>
+                  <value name="TO">
+                    <shadow type="math_number" id="ECZR:pnAN^0v4iDzR=8-">
+                      <field name="NUM">0.8</field>
+                    </shadow>
+                  </value>
+                </block>
+              </value>
+              <value name="B">
+                <shadow type="math_number">
+                  <field name="NUM">0.5</field>
+                </shadow>
+                <block type="math_random_int" id="Wn`9{aLEH-3U=NUUd`!H">
+                  <value name="FROM">
+                    <shadow type="math_number" id="ByVg?S[G4.t?Mv-;Mx7h">
+                      <field name="NUM">0.1</field>
+                    </shadow>
+                  </value>
+                  <value name="TO">
+                    <shadow type="math_number" id="^Zw#(VyYI@:^7JqqSav%">
+                      <field name="NUM">0.8</field>
+                    </shadow>
+                  </value>
+                </block>
+              </value>
+            </block>
+          </statement>
+          <next>
+            <block type="whenClicked" id="#F]HVjy`7B[4L@Hy,#f*">
+              <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false"></mutation>
+              <field name="X_RAY">FALSE</field>
+              <field name="DOUBLE_CLICK">FALSE</field>
+              <field name="LEFT_BUTTON">TRUE</field>
+              <field name="MIDDLE_BUTTON">TRUE</field>
+              <field name="RIGHT_BUTTON">TRUE</field>
+              <value name="VALUE">
+                <shadow type="objectList" id=":{ui|`!2!PP(oo}N?KaP">
+                  <field name="FIELDNAME">Body379</field>
+                </shadow>
+              </value>
+              <statement name="DO">
+                <block type="setMaterialColor" id="xxJ}F}%17#RN11U-*jL0">
+                  <mutation xmlns="http://www.w3.org/1999/xhtml" flexcolinput="false" usecsscolor="false"></mutation>
+                  <field name="MAT_COL_NAME">Principled BSDF Color</field>
+                  <value name="MATERIAL">
+                    <shadow type="materialList" id="Kyy-]#{7c0PT2#,,kZk@">
+                      <field name="FIELDNAME">black</field>
+                    </shadow>
+                  </value>
+                  <value name="R">
+                    <shadow type="math_number">
+                      <field name="NUM">0.2</field>
+                    </shadow>
+                    <block type="math_random_int" id="E!Y4.n4zFIcTvKc-VoxD">
+                      <value name="FROM">
+                        <shadow type="math_number" id="25Va7eKwj0x,3c7i6m^:">
+                          <field name="NUM">0.1</field>
+                        </shadow>
+                      </value>
+                      <value name="TO">
+                        <shadow type="math_number" id="!FffPd7YrE6k8.]z@)CD">
+                          <field name="NUM">0.8</field>
+                        </shadow>
+                      </value>
+                    </block>
+                  </value>
+                  <value name="G">
+                    <shadow type="math_number">
+                      <field name="NUM">0</field>
+                    </shadow>
+                    <block type="math_random_int" id="4CGz5~@Hdr``JmE]Gli/">
+                      <value name="FROM">
+                        <shadow type="math_number" id="Y^=PcY-IA8dBdeAq$s~f">
+                          <field name="NUM">0.1</field>
+                        </shadow>
+                      </value>
+                      <value name="TO">
+                        <shadow type="math_number" id="lv_]d@ZTOec~thexBW3=">
+                          <field name="NUM">0.8</field>
+                        </shadow>
+                      </value>
+                    </block>
+                  </value>
+                  <value name="B">
+                    <shadow type="math_number">
+                      <field name="NUM">0.5</field>
+                    </shadow>
+                    <block type="math_random_int" id=",P)zWCQs#/GX07__I@Hb">
+                      <value name="FROM">
+                        <shadow type="math_number" id="SM^QrA6Xk/sro~;x-pC_">
+                          <field name="NUM">0.1</field>
+                        </shadow>
+                      </value>
+                      <value name="TO">
+                        <shadow type="math_number" id="|T6BT@QZaZq-ht-=oHz_">
+                          <field name="NUM">0.8</field>
+                        </shadow>
+                      </value>
+                    </block>
+                  </value>
+                </block>
+              </statement>
+            </block>
+          </next>
+        </block>
+      </next>
+    </block>
+  </tab>
+  <editorsettings viewport-x="841.1998901367188" viewport-y="62.400001525878906" viewport-w="768" viewport-h="484.5" viewport-hidden="false" toolbox-library-mode="false" toolbox-minimized-mode="false"></editorsettings>
+</xml>
